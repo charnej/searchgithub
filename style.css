@@ -1,0 +1,115 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+#section1 {
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding-top: 4%;
+  justify-content: center;
+}
+
+#section1 input {
+  border-radius: 5px;
+  width: 75%;
+  height: 5%;
+  border: 2px solid gray;
+}
+
+#SearchBtn {
+  background-color: #7433f1;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  height: 5%;
+  width: 20%;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+#AddFavoriteBtn {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    font-family: arial,sans-serif;
+    color: #7433f1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#formsearch {
+  width: 90%;
+  margin-left: 5%;
+}
+
+#section2 {
+  background-color: #f3ecfe;
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding-top: 4%;
+}
+
+#favorites {
+  padding-left: 10%;
+}
+
+#header {
+  background-color: #7433f1;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+
+#repos{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#repos td, #customers th {
+    
+    padding: 8px;
+}
+
+#repos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+}
+#favRepos{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+#favRepos td, #customers th {
+    
+    padding: 8px;
+}
+
+#favRepos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+}
+
+a{
+    color: #7433f1;
+}
