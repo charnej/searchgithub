@@ -21,7 +21,7 @@ class ApiClass {
 
     function getLatestTag($fullname) {
 
-        $token = '4699bb1bf51f393a23ad126bfffbf535101db38a';
+        $token = '02824ae3b1fb71196908baf91fd88611e03becd3';
         $curl_token_auth = 'Authorization: token ' . $token;
 
         $latest_tag_url = 'https://api.github.com/repos/' . $fullname . '/releases/latest';
